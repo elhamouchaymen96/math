@@ -3,7 +3,7 @@ a = int(input("Entrer le premier nombre : "))
 b = int(input("Entrer le deuxième nombre : "))
 c = int(input("Entrer le troisième nombre : "))
 
-print("\n--- Calcul du PGCD(a, b) ---")
+print("Calcul du PGCD(a, b)")
 
 # PGCD(a, b)
 while b != 0:
@@ -16,7 +16,7 @@ while b != 0:
 pgcd_ab = a
 print("PGCD(a, b) =", pgcd_ab)
 
-print("\n--- Calcul du PGCD(PGCD(a, b), c) ---")
+print("Calcul du PGCD(PGCD(a, b), c)")
 
 # PGCD(PGCD(a, b), c)
 a = pgcd_ab   # remettre le résultat dans a
@@ -29,4 +29,4 @@ while b != 0:
     b = r
 
 # Résultat final
-print("\nPGCD des trois nombres =", a)
+print("PGCD des trois nombres =", a)
