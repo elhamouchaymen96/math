@@ -1,4 +1,4 @@
-# PGCD(a,b,c)
+# PGCD(a,b,c)=PGCD(PGCD(a,b),c)
 a = int(input("Entrer le premier nombre : "))
 b = int(input("Entrer le deuxième nombre : "))
 c = int(input("Entrer le troisième nombre : "))
